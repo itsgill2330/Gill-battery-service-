@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gill Battery Service | Gidderbaha</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+}
+
+header{
+    background:#0f172a;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav{
+    max-width:1200px;
+    margin:auto;
+    padding:18px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:700;
+}
+
+.logo span{
+    color:#00c6ff;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.hero{
+    min-height:90vh;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero-content{
+    max-width:800px;
+}
+
+.hero-content h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:18px;
+    margin-bottom:30px;
+    line-height:1.8;
+}
+
+.btn{
+    display:inline-block;
+    background:#00c6ff;
+    color:white;
+    padding:14px 30px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+}
+
+section{
+    padding:80px 20px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:40px;
+    color:#0f172a;
+}
+
+.about{
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#0f172a;
+    margin-bottom:15px;
+}
+
+.why-us{
+    background:#eef4ff;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.feature{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.contact{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+footer{
+    background:#020617;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    padding:15px 20px;
+    border-radius:50px;
+    font-weight:bold;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+@media(max-width:768px){
+
+    .hero-content h1{
+        font-size:38px;
+    }
+
+    nav{
+        flex-direction:column;
+    }
+
+    nav ul{
+        margin-top:15px;
+    }
+
+    nav ul li{
+        margin:0 10px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="logo">Gill<span> Battery Service</span></div>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-content">
+
+<h1>Trusted Battery & Mechanical Services in Gidderbaha</h1>
+
+<p>
+Gill Battery Service provides reliable inverter solutions,
+battery sales and replacement, car servicing, tractor
+maintenance, and bike repair services. We are committed
+to delivering quality workmanship and dependable service
+for every customer.
+</p>
+
+<a href="#contact" class="btn">Contact Us Today</a>
+
+</div>
+</section>
+
+<section id="about">
+<div class="container">
+
+<div class="section-title">
+<h2>About Us</h2>
+</div>
+
+<div class="about">
+<p>
+Gill Battery Service is a trusted mechanical and battery
+service center located near Smart Point, Cinema Road,
+Gidderbaha. Owned and managed by Jaspal Singh, our
+business specializes in inverter services, battery
+solutions, car servicing, tractor maintenance, and bike
+repair. We focus on customer satisfaction, quality work,
+and affordable pricing.
+</p>
+</div>
+
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+
+<div class="section-title">
+<h2>Our Services</h2>
+</div>
+
+<div class="services">
+
+<div class="card">
+<h3>🔋 Battery Services</h3>
+<p>Battery sales, testing, replacement, charging and maintenance.</p>
+</div>
+
+<div class="card">
+<h3>⚡ Inverter Services</h3>
+<p>Installation, repair and maintenance of home and commercial inverters.</p>
+</div>
+
+<div class="card">
+<h3>🚗 Car Service</h3>
+<p>Professional car maintenance, battery checkups and repair solutions.</p>
+</div>
+
+<div class="card">
+<h3>🚜 Tractor Service</h3>
+<p>Reliable tractor servicing, maintenance and battery support.</p>
+</div>
+
+<div class="card">
+<h3>🏍 Bike Service</h3>
+<p>Complete bike repair, servicing and battery replacement solutions.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="why-us">
+<div class="container">
+
+<div class="section-title">
+<h2>Why Choose Us?</h2>
+</div>
+
+<div class="features">
+
+<div class="feature">
+<h3>Experienced Service</h3>
+<p>Years of practical experience in batteries and vehicle maintenance.</p>
+</div>
+
+<div class="feature">
+<h3>Quality Products</h3>
+<p>Reliable batteries and inverter solutions from trusted brands.</p>
+</div>
+
+<div class="feature">
+<h3>Affordable Pricing</h3>
+<p>Competitive rates with honest and transparent service.</p>
+</div>
+
+<div class="feature">
+<h3>Customer Satisfaction</h3>
+<p>Our priority is providing dependable support and quality work.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="contact" id="contact">
+
+<h2>Contact Us</h2>
+
+<br>
+
+<p><strong>Owner:</strong> Jaspal Singh</p>
+<p><strong>Phone:</strong> 9417164070</p>
+<p><strong>Location:</strong> Near Smart Point, Cinema Road, Gidderbaha</p>
+
+<br>
+
+<a class="btn" href="tel:9417164070">Call Now</a>
+
+</section>
+
+<footer>
+<p>© 2026 Gill Battery Service. All Rights Reserved.</p>
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/919417164070"
+target="_blank">
+WhatsApp
+</a>
+
+</body>
+</html>
